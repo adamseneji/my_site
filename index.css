@@ -1,0 +1,506 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 17vmax;
+}
+
+body {
+  padding: 50px;
+  padding-bottom: 0px;
+}
+.navbar {
+  width: 92.5%;
+  margin-left: 3.75%;
+  margin-right: 3.75%;
+  box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+}
+.container-fluid .brand-name {
+  color: white;
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav .container-fluid .brand-name:hover {
+  color: lightblue;
+}
+.navbar-nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-right: 5rem;
+}
+.navbar-nav a:hover {
+  color: lightblue;
+}
+.navbar-nav {
+  padding-right: 5rem;
+  padding-left: 15rem;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+main {
+  margin-top: 50px;
+}
+main .container-bd {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30rem;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+main .container-bd:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(251, 243, 243, 0.367);
+}
+main .container-bd h2 {
+  font-size: 1.7rem;
+  font-family: Georgia, "Times New Roman", Times, serif, Helvetica, sans-serif;
+  position: relative;
+  color: rgb(7, 23, 67);
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+main .container-bd h2 span {
+  font-size: 15px;
+  color: rgb(7, 23, 67);
+  text-align: center;
+}
+main .container-bd .container-desc P {
+  position: relative;
+  font-size: 1.5rem;
+  color: rgb(7, 23, 67);
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+main .container-bd .container-desc button {
+  display: block;
+  margin: auto;
+  position: relative;
+  font-size: 0.8rem;
+  color: white;
+  background-color: rgb(7, 23, 67);
+  border: none;
+  font-weight: bold;
+  height: 5rex;
+}
+
+main .container-bd .container-desc button:hover {
+  font-size: 1rem;
+  color: rgb(7, 23, 67);
+  background-color: rgb(121, 198, 224);
+}
+
+/* About section */
+.container-abt {
+  width: 100%;
+}
+.container-abt .headings h1,
+.container-skill .headings h1,
+.container-contact .headings h1 {
+  color: rgb(7, 23, 67);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.container-abt .container-img img {
+  display: block;
+  margin: auto;
+  width: 23rem;
+  height: 28rem;
+  border-radius: 10px;
+  box-shadow: 4px 2px 4px 2px lightgrey;
+}
+.container-abt .container-img .container-para p {
+  text-align: justify;
+  color: rgb(7, 23, 67);
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.container-abt .container-img .container-para h5 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.container-abt .container-img .container-para {
+  padding-bottom: 10px;
+}
+
+.container-abt .container-img .container-para button {
+  width: 7rem;
+  height: 2.5rem;
+  color: white;
+  background-color: rgb(7, 23, 67);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+}
+
+/* Service section */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 100rem;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.section-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(7, 23, 67);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, rgb(7, 23, 67) 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(7, 23, 67);
+  margin: 1em 0;
+}
+p {
+  color: rgb(7, 23, 67);
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.icon-wrapper {
+  background-color: rgb(7, 23, 67);
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 3em;
+  width: 3em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+.icon-wrapper img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+}
+.card:hover {
+  background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #2c7bfe;
+}
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+/* contact section */
+
+h3 {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(7, 23, 67);
+  text-align: center;
+}
+h6 {
+  color: rgb(7, 23, 67);
+}
+.get-in-touch p {
+  font-size: 1.2rem;
+  color: rgb(7, 23, 67);
+  font-weight: bold;
+}
+
+.get-in-touch span {
+  font-size: 1rem;
+  color: rgb(7, 23, 67);
+  margin-left: 22px;
+}
+
+form .field-name,
+.field-email,
+.field-subject,
+.field-textarea {
+  margin-top: 20px;
+}
+
+form .field-name input,
+.field-email input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid rgb(7, 23, 67);
+}
+form .field,
+.field-subject input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid rgb(7, 23, 67);
+}
+
+form .field,
+.field-textarea textarea {
+  width: 100%;
+  height: 10rem;
+  border-radius: 5px;
+  border: 2px solid rgb(7, 23, 67);
+}
+.button button {
+  background-color: rgb(7, 23, 67);
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.button button:hover {
+  background-color: rgb(89, 126, 227);
+  color: rgb(7, 27, 63);
+  font-weight: bold;
+}
+/* footer section*/
+
+footer {
+  display: flex;
+  background-color: rgb(7, 23, 67);
+  height: 5rem;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+  margin-right: -30px;
+  box-shadow: 2px 2px 2px 2px rgb(209, 208, 208);
+}
+
+footer .container-text p {
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 35px;
+  padding-left: 15px;
+}
+
+footer .img-container img {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+footer .img-container {
+  display: flex;
+}
+footer .container-icon i {
+  margin-right: 10px;
+  margin-top: 15px;
+  color: white;
+  font-size: 1.2rem;
+  padding-right: 0.6rem;
+}
+/*scroll button*/
+
+#myBtn {
+  display: block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 6rem; /* Place the button at the bottom of the page */
+  right: 5px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(7, 23, 67); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 10px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #8098f1cb; /* Add a dark-grey background on hover */
+  color: rgb(7, 23, 67); /* Set a background color */
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding: 7vmax;
+  }
+
+  .navbar {
+    padding-right: 20px;
+  }
+
+  main .container-bd h2 {
+    font-size: 3rem;
+    font-family: Georgia, "Times New Roman", Times, serif, Helvetica, sans-serif;
+    position: relative;
+    color: rgb(7, 23, 67);
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  main .container-bd .container-desc P {
+    position: relative;
+    font-size: 2rem;
+    color: rgb(7, 23, 67);
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+
+  main .container-bd h2 span {
+    font-size: 25px;
+    color: rgb(7, 23, 67);
+    text-align: center;
+  }
+
+  main .container-bd .container-desc button {
+    display: block;
+    margin: auto;
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(7, 23, 67);
+    border: none;
+    font-weight: bold;
+    height: 6rex;
+  }
+
+  main .container-bd {
+    height: 35rem;
+  }
+  /* About section */
+  .container-abt .container-img {
+    display: flex;
+    margin: 2px;
+  }
+
+  .container-abt .container-img .container-para {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    height: 25.8rem;
+    width: 70%;
+  }
+  .container-abt .container-img .container-para p {
+    font-size: 1.3rem;
+    margin-top: 0rem;
+  }
+
+  .container-abt .container-img .container-para button {
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    background-color: rgb(7, 23, 67);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+  }
+
+  .container-abt .container-img .container-para button:hover {
+    color: rgb(7, 23, 67);
+    background-color: rgb(49, 92, 210);
+  }
+  .container-abt .container-img img {
+    margin-right: 20px;
+    width: 27.8rem;
+    height: 30rem;
+  }
+  /* contact section */
+
+  .container-cnt-bdy {
+    display: flex;
+    box-shadow: 2px 3px 2px 2px lightgray;
+    padding: 10px;
+  }
+
+  form .field,
+  .field-textarea textarea {
+    width: 30rem;
+    height: 10rem;
+  }
+
+  .get-in-touch,
+  .message-me {
+    margin: 50px;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+  /* footer section*/
+  footer .container-text p {
+    font-size: 1.2rem;
+  }
+
+  footer .container-icon i {
+    font-size: 1.5rem;
+  }
+}

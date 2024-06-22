@@ -504,3 +504,13 @@ footer .container-icon i {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 600px) {
+  section {
+    height: 110rem;
+  }
+
+  .container-abt .container-img img {
+    width: 18.8rem;
+    height: 28rem;
+  }
+}

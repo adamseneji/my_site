@@ -101,9 +101,7 @@ p {
     height: 2rem;
     margin-top: 5px;
   }
-  .container-abt .container-img .container-para h5 {
-    font-size: 15rem;
-  }
+
   html {
     scroll-behavior: smooth;
     scroll-padding: 7vmax;
